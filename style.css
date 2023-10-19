@@ -125,16 +125,16 @@ nav {
 
 .guiro-continente{
     transform: translateX(1%);
-    animation: slider 60s infinite;
+    animation: slider 60s;
 }
 
 @keyframes slider{
     0%{
-        transform: translateX(0%); } 
+        transform: translateX(2%); } 
     50%{
         transform: translateX(-55%); }  
     100%{
-        transform: translateX(0%); }             
+        transform: translateX(1%); }             
 }
 
 .card-title-ser{
@@ -148,7 +148,7 @@ nav {
     padding-top: 1rem;
     padding-bottom: 1rem;
     height: 35rem;
-    width: 40rem;
+    width: 42rem;
     margin: 0.5%;
 }
 
