@@ -134,7 +134,7 @@ nav {
     font-size: large;
     color:#8C52FF;
     background-color: rgb(231, 228, 228);
-    border-radius: 30%;
+    border-radius: 60%;
 }
 
 @media (max-width:720px) {
