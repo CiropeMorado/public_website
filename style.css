@@ -31,7 +31,7 @@ nav {
 .cover {
     height: 20rem;
     margin-top: 2%;
-    background: url("assets/caratula.jpg") #8C52FF;
+    background: url("assets/caratula.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
