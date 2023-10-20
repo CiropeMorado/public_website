@@ -139,7 +139,6 @@ nav {
     .cover{
         height: 12rem;
         margin-top: 10%;
-        background: url("assets/caratula.jpg") #8C52FF;
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
