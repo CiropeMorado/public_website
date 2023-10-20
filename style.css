@@ -38,7 +38,7 @@ nav {
 }
 
 .card {
-    height: 42rem;
+    height: 44rem;
     width: 1400px;
     margin-top: 2%;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -126,6 +126,15 @@ nav {
     color: #8C52FF;
     background-color: white;
     border-radius: 60%;         
+}
+
+.btn-contactanos {
+    font-style: italic;
+    font-family: bold;
+    font-size: large;
+    color:#8C52FF;
+    background-color: rgb(231, 228, 228);
+    border-radius: 30%;
 }
 
 @media (max-width:720px) {
