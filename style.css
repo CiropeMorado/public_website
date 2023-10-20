@@ -28,45 +28,13 @@ nav {
     border-radius: 35%; 
 }
 
-.cover-header{
-    height: 4%;
+.cover {
+    height: 20rem;
     margin-top: 2%;
-    background: linear-gradient(to top left, #8C52FF , black), url("assets/caratula.svg");
+    background: url("assets/caratula.jpg") #8C52FF;
     background-repeat: no-repeat;
     background-position: center top;
-}
-
-.cover-rrhh {
-    height: 23rem;
-    margin-top: 2%;
-    background: url("assets/rrhh.svg") #8C52FF;
-    background-repeat: no-repeat;
-    background-position: center top;
-}
-
-.cover-contacto {
-    height: 13rem;
-    margin-top: 2.4%;
-    background: url("assets/consultas.svg") #8C52FF;
-    background-repeat: no-repeat;
-    background-position: center top;
-    align-items: end;
-    justify-items: end;
-}
-
-.cover-servicios {
-    height: 23rem;
-    margin-top: 2%;
-    background: url("assets/servicios.svg") #8C52FF;
-    background-repeat: no-repeat;
-    background-position: center top;
-}
-
-.cover-small {
-    height: 25rem ;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background-size: cover;
 }
 
 .card {
@@ -112,11 +80,6 @@ nav {
     width: 100%;
     height: 100%;
 }
-
-.responsive-iframe-form {
-    position: relative;
-} 
-
 
 .giro{
     display: flex;
@@ -173,11 +136,13 @@ nav {
 }
 
 @media (max-width:720px) {
-    .cover-contacto{
-        margin-top: 8%;
-        background-position-x: right;
-        align-items: flex-start;
-        justify-items: center;
+    .cover{
+        height: 12rem;
+        margin-top: 10%;
+        background: url("assets/caratula.jpg") #8C52FF;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
     }
 }
 
