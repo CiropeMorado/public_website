@@ -194,7 +194,6 @@ input::placeholder, textarea::placeholder {
     text-align: center;
 }
 
-
 .form-txt a {
     color: #8C52FF;
     font-size: 14px; 
@@ -203,13 +202,20 @@ input::placeholder, textarea::placeholder {
 }
 
 .btn {
-    color:black;
+    color: black;
+    font-style: italic;
+    font-family: bold;
+    font-size: large;
     border-radius: 25px;
-    background-color: #8C52FF;
+    background: linear-gradient(to  left, #8C52FF , grey);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     cursor: pointer;
+
 }
 
 .btn:hover {
-    background-color: #8C52FF
+    color: black;
+    background: #8C52FF;
+    font-size: larger;
+    border-color: black;
 }
