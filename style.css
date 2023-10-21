@@ -119,28 +119,14 @@ nav {
     margin: 0.5%;
 }
 
-.badge-light {
-    font-style: italic;
-    font-family: bold;
-    font-size: medium;
-    color: #8C52FF;
-    background-color: white;
-    border-radius: 60%;         
-}
-
-.btn-contactanos {
-    font-style: italic;
-    font-family: bold;
-    font-size: large;
-    color:#8C52FF;
-    background-color: rgb(231, 228, 228);
-    border-radius: 60%;
-}
-
 @media (max-width:720px) {
     .card{
         width: 100%;
         height: 100%;
+    }
+    .logo{
+        width: 80%;
+        height: 80%;
     }
 }
 
@@ -210,6 +196,7 @@ input::placeholder, textarea::placeholder {
     background: linear-gradient(to  left, #8C52FF , grey);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     cursor: pointer;
+    margin: 10px;
 
 }
 
