@@ -191,6 +191,12 @@ input::placeholder, textarea::placeholder {
     }
 }
 
+@media (min-width:1024px) {
+    .card{
+        width: 315%;
+    }
+}
+
 @media (max-width:720px) {
     .cover{
         height: 12rem;
