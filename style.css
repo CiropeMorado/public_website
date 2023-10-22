@@ -196,10 +196,8 @@ input::placeholder, textarea::placeholder {
     @keyframes slider{
             0%{
                 transform: translateX(0%); } 
-            50%{
-                transform: translateX(-83%); }  
             100%{
-                transform: translateX(1.1%); }             
+                transform: translateX(-83%); }              
         }
         .stripe-container{
             animation-iteration-count: 1;
