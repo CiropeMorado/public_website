@@ -171,6 +171,10 @@ input::placeholder, textarea::placeholder {
     animation: slider 40s;
 }
 
+.stripe-container:hover {
+    animation-play-state:paused;
+}
+
 @keyframes slider{
     0%{
         transform: translateX(0%); } 
