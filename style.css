@@ -168,7 +168,7 @@ input::placeholder, textarea::placeholder {
 
 .stripe-container{
     transform: translateX(1%);
-    animation: slider 40s;
+    animation: slider 30s infinite;
 }
 
 .stripe-container:hover {
