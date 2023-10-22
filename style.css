@@ -172,7 +172,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .stripe-container:hover {
-    animation-play-state:paused;
+    animation-play-state: paused;
 }
 
 @keyframes slider{
