@@ -29,6 +29,10 @@ nav {
     border-radius: 35%; 
 }
 
+.logo-footer{
+    text-align: center;
+}
+
 .cover {
     height: 20rem;
     margin-top: 2%;
