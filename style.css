@@ -14,8 +14,7 @@ h6 {
     font-family: 'Source Sans', bold;
 }
 
-nav {
-    -webkit-background-origin: none;
+nav , .nav-link{
     width: 100%;
     background: black;
     font-family: 'Libre Baskerville', serif;
