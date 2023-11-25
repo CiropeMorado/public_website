@@ -15,7 +15,7 @@ h6 {
 }
 
 nav , .nav-link{
-    -webkit-font-feature-settings: none;
+    -webkit-text-fill-color: none;
     width: 100%;
     background: black;
     font-family: 'Libre Baskerville', serif;
