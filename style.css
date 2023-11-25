@@ -17,12 +17,13 @@ h6 {
 nav {
     width: 100%;
     background: black;
-}
-
-.nav-link {
     font-family: 'Libre Baskerville', serif;
     color: #8C52FF;
     font-size: medium;
+}
+
+.nav-link {
+
 }
 
 .logo {
