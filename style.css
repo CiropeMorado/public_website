@@ -16,10 +16,10 @@ h6 {
 
 nav , .nav-link{
     -webkit-text-fill-color: none;
+    color: #8C52FF;
     width: 100%;
     background: black;
     font-family: 'Libre Baskerville', serif;
-    color: #8C52FF;
     font-size: medium;
 }
 
