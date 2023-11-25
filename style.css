@@ -15,6 +15,7 @@ h6 {
 }
 
 nav {
+    -webkit-background-origin: none;
     width: 100%;
     background: black;
     font-family: 'Libre Baskerville', serif;
