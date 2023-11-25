@@ -192,6 +192,12 @@ input::placeholder, textarea::placeholder {
         width: 100%;
         height: 100%;
     }
+    .nav-link {
+        font-family: 'Libre Baskerville', serif;
+        color: black;
+        font-size: normal;
+        font-style: bold;
+    }
     @keyframes slider{
             0%{
                 transform: translateX(0%); } 
